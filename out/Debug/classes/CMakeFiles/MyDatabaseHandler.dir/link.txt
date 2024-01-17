@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMyDatabaseHandler.a CMakeFiles/MyDatabaseHandler.dir/databaseHandler.cpp.o
+/usr/bin/ranlib libMyDatabaseHandler.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Uni-Aufgaben.dir/main.cpp.o -o Uni-Aufgaben  ../classes/libMyUtils.a ../classes/libMyDateTime.a ../classes/libMyDatabaseHandler.a ../classes/libMyProject.a ../classes/libMyTemperature.a ../classes/libMyProjectHandler.a ../libraries/libSqlite3.a 

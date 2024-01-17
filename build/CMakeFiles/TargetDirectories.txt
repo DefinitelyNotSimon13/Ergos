@@ -1,0 +1,17 @@
+/home/simon/uni/tasks/build/CMakeFiles/edit_cache.dir
+/home/simon/uni/tasks/build/CMakeFiles/rebuild_cache.dir
+/home/simon/uni/tasks/build/src/CMakeFiles/Uni-Aufgaben.dir
+/home/simon/uni/tasks/build/src/CMakeFiles/edit_cache.dir
+/home/simon/uni/tasks/build/src/CMakeFiles/rebuild_cache.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/MyTemperature.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/MyUtils.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/MyProject.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/MyDateTime.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/MyDatabaseHandler.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/edit_cache.dir
+/home/simon/uni/tasks/build/classes/CMakeFiles/rebuild_cache.dir
+/home/simon/uni/tasks/build/include/CMakeFiles/edit_cache.dir
+/home/simon/uni/tasks/build/include/CMakeFiles/rebuild_cache.dir
+/home/simon/uni/tasks/build/libraries/CMakeFiles/Sqlite3.dir
+/home/simon/uni/tasks/build/libraries/CMakeFiles/edit_cache.dir
+/home/simon/uni/tasks/build/libraries/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# ninja log v5
+2	31	1705324018452052492	classes/CMakeFiles/MyDateTime.dir/dateTime.cpp.o	587b8c57a794c93b
+2	50	1705324018468052495	classes/CMakeFiles/MyDatabaseHandler.dir/databaseHandler.cpp.o	65f2d0ff3391500a
+31	92	1705324018512052505	classes/libMyDateTime.a	c2144c8a7018d39c
+1	457	1705324018876052584	classes/CMakeFiles/MyTemperature.dir/temperature.cpp.o	5b32fd559d187046
+458	508	1705324018928052596	classes/libMyTemperature.a	1d730b383d402ca
+1	512	1705324018932052596	classes/CMakeFiles/MyProject.dir/project.cpp.o	17187e6863d02fa4
+512	597	1705324019016052616	classes/libMyProject.a	10180eeefe657f98
+1	760	1705324019180052651	classes/CMakeFiles/MyUtils.dir/utils.cpp.o	621e137cf1aad627
+0	787	1705324019208052657	src/CMakeFiles/Uni-Aufgaben.dir/main.cpp.o	5979a2c3a0ce6d3d
+760	841	1705324019260052669	classes/libMyUtils.a	ace58e742dd91ee2
+3	8118	1705324026528054256	libraries/CMakeFiles/Sqlite3.dir/sqlite3.c.o	da5ada4a285e1062
+8118	8226	1705324026644054282	libraries/libSqlite3.a	a6766424b6f9ec9d
+8226	8311	1705324026728054299	classes/libMyDatabaseHandler.a	fcdaada01354b9cc
+8311	8511	1705324026928054343	src/Uni-Aufgaben	13399cc4a8296578

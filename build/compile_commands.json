@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -I/home/simon/uni/tasks/build -I/home/simon/uni/tasks/classes -I/home/simon/uni/tasks/include -I/home/simon/uni/tasks/libraries -g -std=gnu++17 -o src/CMakeFiles/Uni-Aufgaben.dir/main.cpp.o -c /home/simon/uni/tasks/src/main.cpp",
+  "file": "/home/simon/uni/tasks/src/main.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o classes/CMakeFiles/MyTemperature.dir/temperature.cpp.o -c /home/simon/uni/tasks/classes/temperature.cpp",
+  "file": "/home/simon/uni/tasks/classes/temperature.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o classes/CMakeFiles/MyUtils.dir/utils.cpp.o -c /home/simon/uni/tasks/classes/utils.cpp",
+  "file": "/home/simon/uni/tasks/classes/utils.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o classes/CMakeFiles/MyProject.dir/project.cpp.o -c /home/simon/uni/tasks/classes/project.cpp",
+  "file": "/home/simon/uni/tasks/classes/project.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o classes/CMakeFiles/MyDateTime.dir/dateTime.cpp.o -c /home/simon/uni/tasks/classes/dateTime.cpp",
+  "file": "/home/simon/uni/tasks/classes/dateTime.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/g++ -I/home/simon/uni/tasks/libraries -g -std=gnu++17 -o classes/CMakeFiles/MyDatabaseHandler.dir/databaseHandler.cpp.o -c /home/simon/uni/tasks/classes/databaseHandler.cpp",
+  "file": "/home/simon/uni/tasks/classes/databaseHandler.cpp"
+},
+{
+  "directory": "/home/simon/uni/tasks/build",
+  "command": "/usr/bin/gcc -g -o libraries/CMakeFiles/Sqlite3.dir/sqlite3.c.o -c /home/simon/uni/tasks/libraries/sqlite3.c",
+  "file": "/home/simon/uni/tasks/libraries/sqlite3.c"
+}
+]
