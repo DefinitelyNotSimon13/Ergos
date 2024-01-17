@@ -12,7 +12,8 @@ namespace myClasses {
                 std::make_shared<DatabaseHandler>(test);
     }
 
-    ProjectHandler::ProjectHandler(std::shared_ptr<DatabaseHandler> newDbHandler) {
+    ProjectHandler::ProjectHandler(
+            std::shared_ptr<DatabaseHandler> newDbHandler) {
         this->dbHandler = std::move(newDbHandler);
     }
 

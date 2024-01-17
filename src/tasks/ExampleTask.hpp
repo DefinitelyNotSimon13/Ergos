@@ -2,9 +2,10 @@
 
 namespace myTasks {
 
-    class ExampleTask{
+    class ExampleTask {
     public:
         explicit ExampleTask(bool run);
+
         int run();
 
     };

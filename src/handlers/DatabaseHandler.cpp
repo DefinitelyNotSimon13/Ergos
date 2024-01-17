@@ -12,6 +12,7 @@ namespace myClasses {
     const sqlite3 *DatabaseHandler::getDatabase() const { return this->db; }
 
     int16_t DatabaseHandler::executeCommand(const char *command) const {
-        return (int16_t)sqlite3_exec(this->db, command, nullptr, nullptr, nullptr);
+        return (int16_t) sqlite3_exec(this->db, command, nullptr, nullptr,
+                                      nullptr);
     }
 }  // namespace myClasses

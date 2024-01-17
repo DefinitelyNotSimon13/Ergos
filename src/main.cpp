@@ -13,10 +13,11 @@ using namespace myClasses;
 std::vector<std::string> projects = {"Temperatures", "project2"};
 
 int main(int argc, char *argv[]) {
-    if(argc > 1) {
+    if (argc > 1) {
         Logger::getInstance().log("Program started with commands!", "Info");
         CommandHandler cmdHandler(argc, argv);
-        Logger::getInstance().log("Program ended after CommandHandler execution!", "Info");
+        Logger::getInstance().log(
+                "Program ended after CommandHandler execution!", "Info");
         return 0;
     }
 

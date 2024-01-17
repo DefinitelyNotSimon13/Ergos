@@ -28,16 +28,20 @@ namespace myTasks {
                 case 1: {
                     std::cout << "Please enter a (point seperated) number:";
                     float inputTemperature = Utils::inputFloat();
-                    float celsius = Temperature::convertToCelsius(inputTemperature);
-                    std::cout << inputTemperature << "°F is equal to " << celsius << "°C!"
+                    float celsius = Temperature::convertToCelsius(
+                            inputTemperature);
+                    std::cout << inputTemperature << "°F is equal to "
+                              << celsius << "°C!"
                               << std::endl;
                     break;
                 }
                 case 2: {
                     std::cout << "Please enter a (point seperated) number:";
                     float inputTemperature = Utils::inputFloat();
-                    float fahrenheit = Temperature::convertToFahrenheit(inputTemperature);
-                    std::cout << inputTemperature << "°C is equal to " << fahrenheit
+                    float fahrenheit = Temperature::convertToFahrenheit(
+                            inputTemperature);
+                    std::cout << inputTemperature << "°C is equal to "
+                              << fahrenheit
                               << "°F!" << std::endl;
                     break;
                 }

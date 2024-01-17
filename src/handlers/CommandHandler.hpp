@@ -6,6 +6,10 @@
 
 namespace myClasses {
 
+    /**
+     * @class CommandHandler
+     * @brief The CommandHandler class handles commands passed as arguments to the program.
+     */
     class CommandHandler {
     public:
         CommandHandler() = default;
@@ -42,7 +46,7 @@ namespace myClasses {
                 {"edit",        &CommandHandler::edit},
                 {"list",        &CommandHandler::list},
                 {"temperature", &CommandHandler::temperature},
-                {"example", &CommandHandler::example},
+                {"example",     &CommandHandler::example},
                 {"exit",        &CommandHandler::exit}
         };
     };
