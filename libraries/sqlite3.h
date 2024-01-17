@@ -2000,15 +2000,15 @@ struct sqlite3_mem_methods {
 ** invoked by [sqlite3_log()] to process each logging event.  ^If the
 ** function pointer is NULL, the [sqlite3_log()] interface becomes a no-op.
 ** ^The void pointer that is the second argument to SQLITE_CONFIG_LOG is
-** passed through as the first parameter to the application-defined logger
+** passed through as the first parameter to the application-defined Logger
 ** function whenever that function is invoked.  ^The second parameter to
-** the logger function is a copy of the first parameter to the corresponding
+** the Logger function is a copy of the first parameter to the corresponding
 ** [sqlite3_log()] call and is intended to be a [result code] or an
-** [extended result code].  ^The third parameter passed to the logger is
+** [extended result code].  ^The third parameter passed to the Logger is
 ** log message after formatting via [sqlite3_snprintf()].
-** The SQLite logging interface is not reentrant; the logger function
+** The SQLite logging interface is not reentrant; the Logger function
 ** supplied by the application must not invoke any SQLite interface.
-** In a multi-threaded application, the application-defined logger
+** In a multi-threaded application, the application-defined Logger
 ** function must be threadsafe. </dd>
 **
 ** [[SQLITE_CONFIG_URI]] <dt>SQLITE_CONFIG_URI
