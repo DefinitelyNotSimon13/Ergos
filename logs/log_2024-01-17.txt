@@ -1,0 +1,24 @@
+21:44:13 | Info - Program started without commands
+21:44:15 | Debug - Waiting for user input!
+21:44:16 | Info - Program ended after project execution!
+21:44:32 | Info - Program started without commands
+21:45:23 | Info - Program started with commands!
+21:45:23 | Debug - CommandHandler started!
+21:45:23 | Debug - Processing commands!
+21:45:23 | Info - Processing command: test
+21:45:23 | Error - Command can't be found!
+21:45:23 | Info - Program ended after CommandHandler execution!
+21:45:27 | Info - Program started with commands!
+21:45:27 | Debug - CommandHandler started!
+21:45:27 | Debug - Processing commands!
+21:45:27 | Info - Processing command: help
+21:45:27 | Info - Command found – executing
+21:45:27 | Info - Executing help command!
+21:45:27 | Info - Program ended after CommandHandler execution!
+21:45:30 | Info - Program started with commands!
+21:45:30 | Debug - CommandHandler started!
+21:45:30 | Debug - Processing commands!
+21:45:30 | Info - Processing command: temperature
+21:45:30 | Info - Command found – executing
+21:45:30 | Info - Executing temperature command!
+21:45:30 | Info - Program ended after CommandHandler execution!
