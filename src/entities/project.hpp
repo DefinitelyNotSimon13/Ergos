@@ -1,6 +1,6 @@
 #include <cstdint>
 #include <string>
-namespace myProjects {
+namespace myEntities {
 class Project {
 public:
   Project();
@@ -32,4 +32,4 @@ private:
   std::string description = "No description set";
 
 };
-}  // namespace myProjects
+}  // namespace myClasses

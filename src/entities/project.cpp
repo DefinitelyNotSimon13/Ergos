@@ -1,5 +1,5 @@
 #include "project.hpp"
-namespace myProjects {
+namespace myEntities {
 Project::Project(){}
 
 Project::Project(
