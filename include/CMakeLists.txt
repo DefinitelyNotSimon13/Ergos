@@ -1,2 +1,3 @@
-add_library(MyDateTimeLib SHARED dateTime.cpp)
-add_library(MyUtilLib SHARED utils.cpp)
+add_library(MyDateTimeLib DateTime.cpp)
+add_library(MyUtilLib Utils.cpp)
+add_library(MyLogLib Logger.cpp)
