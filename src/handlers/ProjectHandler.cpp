@@ -1,10 +1,10 @@
-#include "projectHandler.hpp"
+#include "ProjectHandler.hpp"
 #include <fstream>
 #include <string>
 #include <utility>
 #include <iostream>
 
-namespace myProjectHandler {
+namespace myClasses {
 ProjectHandler::ProjectHandler() {
   std::string database = "projects.db";
   const char* test = database.c_str();
@@ -18,4 +18,4 @@ std::shared_ptr<Project> ProjectHandler::createProjectInTerminal(){
   std::shared_ptr<Project> ptrProject = std::make_shared<Project>();
   return ptrProject;
 }
-}  // namespace myProjectHandler
+}  // namespace myClasses

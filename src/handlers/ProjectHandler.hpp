@@ -1,11 +1,12 @@
+#pragma once
+
 #include <memory>
 
-#include "databaseHandler.hpp"
+#include "DatabaseHandler.hpp"
 #include "../entities/project.hpp"
-using namespace myClasses;
-using namespace myProjects;
+using namespace myEntities;
 
-namespace myProjectHandler {
+namespace myClasses {
 class ProjectHandler {
  public:
   ProjectHandler();
@@ -15,4 +16,4 @@ class ProjectHandler {
  private:
   std::shared_ptr<DatabaseHandler> dbHandler = nullptr;
 };
-}  // namespace myProjectHandler
+}  // namespace myClasses
