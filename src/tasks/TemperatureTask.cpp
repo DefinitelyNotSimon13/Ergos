@@ -1,10 +1,10 @@
-#include "temperature.hpp"  //;
+#include "TemperatureTask.hpp"  //;
 
 #include <iostream>
 
-#include "../../include/utils.hpp"
-using namespace myUtils;
-namespace myTemperature {
+#include "../../include/Utils.hpp"
+using namespace myLibs;
+namespace myTasks {
 Temperature::Temperature(bool run) {
   if (run) {
     this->run();
@@ -13,7 +13,7 @@ Temperature::Temperature(bool run) {
 
 int Temperature::run() {
   std::cout << "Welcome to the temperature programm!\n";
-  std::cout << "This programm was written in the first lesson!";
+  std::cout << "This program has been written in the first lesson!";
   bool continueConversion = false;
   do {
     std::cout << "Do you want to convert from\n";
@@ -49,10 +49,10 @@ int Temperature::run() {
 }
 
 float Temperature::convertToFahrenheit(float celsius) {
-  return celsius * Temperature::factor + Temperature::offset;
+  return celsius * Temperature::factor + (float)Temperature::offset;
 }
 
 float Temperature::convertToCelsius(float fahrenheit) {
-  return (fahrenheit - Temperature::offset) / Temperature::factor;
+  return (fahrenheit - (float)Temperature::offset) / Temperature::factor;
 }
-}  // namespace myTemperature
+}  // namespace myTasks

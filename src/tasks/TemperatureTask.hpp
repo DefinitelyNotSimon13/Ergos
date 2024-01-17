@@ -1,8 +1,10 @@
-namespace myTemperature {
+#pragma once
+
+namespace myTasks{
 class Temperature {
  public:
   Temperature(bool run);
-  int run();
+  static int run();
 
  private:
   static float convertToFahrenheit(float celsius);
@@ -10,4 +12,4 @@ class Temperature {
   static inline int offset = 32;
   static inline float factor = 1.8;
 };
-}  // namespace myTemperature
+}  // namespace myTasks
