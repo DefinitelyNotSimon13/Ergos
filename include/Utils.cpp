@@ -1,10 +1,10 @@
-#include "utils.hpp"
+#include "Utils.hpp"
 
 #include <cctype>
 #include <cstring>
 #include <iostream>
 #include <string>
-namespace myUtils {
+namespace myLibs {
 
 int Utils::inputInt() {
   bool correctInput = false;
@@ -63,4 +63,4 @@ bool Utils::inputYN() {
   } while (!correctInput);
   return input == "y" ? true : false;
 }
-}  // namespace myUtils
+}  // namespace myLibs

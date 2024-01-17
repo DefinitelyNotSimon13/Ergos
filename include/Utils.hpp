@@ -1,4 +1,4 @@
-namespace myUtils {
+namespace myLibs {
 class Utils {
  public:
   Utils() {}
@@ -6,4 +6,4 @@ class Utils {
   static float inputFloat();
   static bool inputYN();
 };
-}  // namespace myUtils
+}  // namespace myLibs
