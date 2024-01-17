@@ -1,4 +1,4 @@
-#include "databaseHandler.hpp"
+#include "DatabaseHandler.hpp"
 #include <cstddef>
 namespace myClasses {
 DatabaseHandler::DatabaseHandler(const char* filename) {
