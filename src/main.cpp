@@ -4,12 +4,12 @@
 #include <string>
 #include <vector>
 
-#include "temperature.hpp"
+#include "tasks/temperature.hpp"
 #include "utils.hpp"
-#include "projectHandler.hpp"
+#include "handlers/projectHandler.hpp"
 
 using namespace myUtils;
-using namespace myDatabaseHandler;
+using namespace myClasses;
 using namespace myProjectHandler;
 
 int main(int argc, char *argv[]) {

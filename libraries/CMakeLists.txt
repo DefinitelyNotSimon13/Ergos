@@ -1,2 +1,2 @@
-add_library(Sqlite3 sqlite3.c)
-target_link_libraries(MyDatabaseHandler PRIVATE Sqlite3)
+add_library(Sqlite3Lib sqlite3.c)
+

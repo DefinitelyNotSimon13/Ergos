@@ -1,8 +1,8 @@
-#include "../include/temperature.hpp"  //;
+#include "temperature.hpp"  //;
 
 #include <iostream>
 
-#include "../include/utils.hpp"
+#include "../../include/utils.hpp"
 using namespace myUtils;
 namespace myTemperature {
 Temperature::Temperature(bool run) {

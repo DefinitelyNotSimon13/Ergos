@@ -1,4 +1,4 @@
-#include "../include/project.hpp"
+#include "project.hpp"
 namespace myProjects {
 Project::Project(){}
 

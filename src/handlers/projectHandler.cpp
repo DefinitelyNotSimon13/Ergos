@@ -1,4 +1,4 @@
-#include "../include/projectHandler.hpp"
+#include "projectHandler.hpp"
 #include <fstream>
 #include <string>
 #include <utility>
@@ -6,7 +6,7 @@
 
 namespace myProjectHandler {
 ProjectHandler::ProjectHandler() {
-  std::string database = "database.db";
+  std::string database = "projects.db";
   const char* test = database.c_str();
   std::shared_ptr<DatabaseHandler> ptrDbHandler =
       std::make_shared<DatabaseHandler>(test);

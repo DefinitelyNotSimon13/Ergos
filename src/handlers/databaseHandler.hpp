@@ -1,7 +1,7 @@
 #include <cstdint>
-#include "../libraries/sqlite3.h"
+#include "sqlite3.h"
 
-namespace myDatabaseHandler {
+namespace myClasses {
 class DatabaseHandler {
  public:
   DatabaseHandler()= default;
@@ -12,4 +12,4 @@ class DatabaseHandler {
  private:
   sqlite3* db{};
 };
-}  // namespace myDatabaseHandler
+}  // namespace myClasses

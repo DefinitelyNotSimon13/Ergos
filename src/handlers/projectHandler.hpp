@@ -1,8 +1,8 @@
 #include <memory>
 
 #include "databaseHandler.hpp"
-#include "project.hpp"
-using namespace myDatabaseHandler;
+#include "../entities/project.hpp"
+using namespace myClasses;
 using namespace myProjects;
 
 namespace myProjectHandler {
