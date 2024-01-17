@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMyDateTime.a CMakeFiles/MyDateTime.dir/dateTime.cpp.o
-/usr/bin/ranlib libMyDateTime.a

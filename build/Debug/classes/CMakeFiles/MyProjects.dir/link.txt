@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMyProjects.a CMakeFiles/MyProjects.dir/project.cpp.o
-/usr/bin/ranlib libMyProjects.a

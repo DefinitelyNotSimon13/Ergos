@@ -5,7 +5,7 @@ DatabaseHandler::DatabaseHandler(const char* filename) {
   int statusCode = sqlite3_open(filename, &this->db);
 }
 DatabaseHandler::~DatabaseHandler(){
-  sqlite3_close(db);
+  //sqlite3_close(db);
 }
 const sqlite3* DatabaseHandler::getDatabase() const { return this->db; }
 const int16_t DatabaseHandler::executeCommand(const char* command) const {

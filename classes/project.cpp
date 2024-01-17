@@ -1,8 +1,7 @@
 #include "../include/project.hpp"
 namespace myProjects {
-Project::Project(){
+Project::Project(){}
 
-}
 Project::Project(
     const std::string& title,
     const int creationDate,

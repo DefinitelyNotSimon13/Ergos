@@ -24,7 +24,7 @@ public:
   const std::string& setDescription(const std::string& newDescription);
 private:
   int8_t id = -1;
-  int creationDate;
+  int creationDate{};
   uint8_t majorVersion = 0;
   uint8_t minorVersion = 0;
   std::string title = "No title set";

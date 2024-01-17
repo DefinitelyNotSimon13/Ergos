@@ -1,3 +1,5 @@
+target_link_libraries(MyProjectHandler PUBLIC MyDatabaseHandler)
+target_link_libraries(MyProjectHandler PUBLIC MyProject)
 target_link_libraries(${PROJECT_NAME} PUBLIC MyUtils)
 target_link_libraries(${PROJECT_NAME} PUBLIC MyDateTime)
 target_link_libraries(${PROJECT_NAME} PUBLIC MyDatabaseHandler)
