@@ -4,16 +4,19 @@
 
 #include "DatabaseHandler.hpp"
 #include "../entities/project.hpp"
+
 using namespace myEntities;
 
 namespace myClasses {
-class ProjectHandler {
- public:
-  ProjectHandler();
-  ProjectHandler(std::shared_ptr<DatabaseHandler> newDbHandler);
-  std::shared_ptr<Project> createProjectInTerminal();
+    class ProjectHandler {
+    public:
+        ProjectHandler();
 
- private:
-  std::shared_ptr<DatabaseHandler> dbHandler = nullptr;
-};
+        explicit ProjectHandler(std::shared_ptr<DatabaseHandler> newDbHandler);
+
+        static std::shared_ptr<Project> createProjectInTerminal();
+
+    private:
+        std::shared_ptr<DatabaseHandler> dbHandler = nullptr;
+    };
 }  // namespace myClasses

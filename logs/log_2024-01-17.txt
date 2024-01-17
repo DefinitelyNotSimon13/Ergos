@@ -23,3 +23,10 @@
 21:45:30 | Info - Executing temperature command!
 21:45:30 | Info - Program ended after CommandHandler execution!
 21:53:10 | Info - Program started without commands
+22:34:17 | Info - Program started with commands!
+22:34:17 | Debug - CommandHandler started!
+22:34:17 | Debug - Processing commands!
+22:34:17 | Info - Processing command: example
+22:34:17 | Info - Command found – executing
+22:34:17 | Info - Executing example command!
+22:34:17 | Info - Program ended after CommandHandler execution!

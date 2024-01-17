@@ -2,13 +2,14 @@
 #include "CommandHandler.hpp"
 #include "Logger.hpp"
 #include "TemperatureTask.hpp"
+#include "ExampleTask.hpp"
 
 using namespace myLibs;
 
 namespace myClasses {
     CommandHandler::CommandHandler(int argc, char **argv) {
         Logger::getInstance().log("CommandHandler started!", "Debug");
-        if(argc == 1) {
+        if (argc == 1) {
             return;
         }
         this->processCommands(argc, argv);
@@ -16,15 +17,15 @@ namespace myClasses {
 
     void CommandHandler::processCommands(int argc, char **argv) {
         Logger::getInstance().log("Processing commands!", "Debug");
-        for(int i = 1; i < argc; i++) {
+        for (int i = 1; i < argc; i++) {
             this->processCommand(argv[i]);
         }
     }
 
-    void CommandHandler::processCommand(const std::string& command) {
+    void CommandHandler::processCommand(const std::string &command) {
         Logger::getInstance().log("Processing command: " + command, "Info");
         auto it = this->commandMap.find(command);
-        if(it != this->commandMap.end()) {
+        if (it != this->commandMap.end()) {
             Logger::getInstance().log("Command found – executing", "Info");
             (this->*(it->second))();
         } else {
@@ -67,6 +68,12 @@ namespace myClasses {
     void CommandHandler::exit() {
         Logger::getInstance().log("Executing exit command!", "Info");
         std::cout << "exit - TBD\n";
+    }
+
+    void CommandHandler::example() {
+        Logger::getInstance().log("Executing example command!", "Info");
+        std::cout << "Starting example programm...\n";
+        myTasks::ExampleTask(true);
     }
 
 } // myClasses

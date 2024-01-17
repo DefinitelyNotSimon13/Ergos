@@ -17,8 +17,6 @@ set(SOURCES src/main.cpp
         src/handlers/DatabaseHandler.cpp
         src/tasks/TemperatureTask.cpp
         src/tasks/ExampleTask.cpp
-        src/tasks/ExampleTask.hpp
-        src/tasks/Task.hpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
