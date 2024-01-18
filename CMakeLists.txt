@@ -12,6 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wl,--demangle")
 add_definitions(-DSOURCE_DIR=\"${PROJECT_SOURCE_DIR}\")
 set(SOURCES src/main.cpp
         src/entities/project.cpp
+        src/handlers/MenuHandler.cpp
         src/handlers/ProjectHandler.cpp
         src/handlers/CommandHandler.cpp
         src/handlers/DatabaseHandler.cpp

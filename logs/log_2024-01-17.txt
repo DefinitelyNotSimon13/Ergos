@@ -30,3 +30,23 @@
 22:34:17 | Info - Command found – executing
 22:34:17 | Info - Executing example command!
 22:34:17 | Info - Program ended after CommandHandler execution!
+22:50:33 | Info - Program started without commands
+22:50:34 | Debug - Waiting for user input!
+22:50:41 | Info - Program started with commands!
+22:50:41 | Debug - CommandHandler started!
+22:50:41 | Debug - Processing commands!
+22:50:41 | Info - Processing command: example
+22:50:41 | Info - Command found – executing
+22:50:41 | Info - Executing example command!
+22:50:41 | Info - ExampleTask constructor called.
+22:50:41 | Info - ExampleTask task called.
+22:50:41 | Info - Program ended after CommandHandler execution!
+22:50:46 | Info - Program started with commands!
+22:50:46 | Debug - CommandHandler started!
+22:50:46 | Debug - Processing commands!
+22:50:46 | Info - Processing command: temperature
+22:50:46 | Info - Command found – executing
+22:50:46 | Info - Executing temperature command!
+22:50:46 | Info - Temperature constructor called.
+22:50:46 | Info - Temperature task called.
+22:50:52 | Info - Program ended after CommandHandler execution!
