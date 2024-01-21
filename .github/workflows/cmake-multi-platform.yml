@@ -1,6 +1,9 @@
+
+
 # This starter workflow is for a CMake project running on multiple platforms. There is a different starter workflow if you just want a single platform.
 # See: https://github.com/actions/starter-workflows/blob/main/ci/cmake-single-platform.yml
 name: CMake on multiple platforms
+  
 
 on:
   push:
@@ -46,6 +49,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Create .env file
+      run: |
+        touch .env
+        echo connection_string=${{ secrets.connection_string }} >> .env
+        cat .env
 
     - name: Set reusable strings
       # Turn repeated input strings (such as the build output directory) into step outputs. These step outputs can be used throughout the workflow file.
