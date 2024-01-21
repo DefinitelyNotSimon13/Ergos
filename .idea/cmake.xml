@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Visual Studio" ENABLED="true" GENERATION_DIR="build/DebugVS" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="test" value="test" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Release-Visual Studio" ENABLED="true" GENERATION_DIR="build/ReleaseVS" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="RelWithDebInfo-Visual Studio" ENABLED="true" GENERATION_DIR="build/RelWithDebInfoVS" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="MinSizeRel-Visual Studio" ENABLED="true" GENERATION_DIR="build/MinSizeRelVS" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Debug-WSL" ENABLED="false" GENERATION_DIR="build/DebugWSL" CONFIG_NAME="Debug" TOOLCHAIN_NAME="WSL" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Release-WSL" ENABLED="false" GENERATION_DIR="build/ReleaseWSL" CONFIG_NAME="Release" TOOLCHAIN_NAME="WSL" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="RelWithDebInfo-WSL" ENABLED="false" GENERATION_DIR="build/RelWithDebInfoWSL" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="WSL" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="MinSizeRel-WSL" ENABLED="false" GENERATION_DIR="build/MinSizeRelWSL" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="WSL" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Debug-MinGW" ENABLED="false" GENERATION_DIR="build/DebugMinGW" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Release-MinGW" ENABLED="false" GENERATION_DIR="build/ReleaseMinGW" CONFIG_NAME="Release" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="RelWithDebInfo-MinGW" ENABLED="false" GENERATION_DIR="build/RelWithDebInfoMinGW" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="MinSizeRel-MinGW" ENABLED="false" GENERATION_DIR="build/MinSizeRelMinGW" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Debug-System" ENABLED="false" GENERATION_DIR="build/DebugSystem" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="Release-System" ENABLED="false" GENERATION_DIR="build/ReleaseSystem" CONFIG_NAME="Release" TOOLCHAIN_NAME="System" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="RelWithDebInfo-System" ENABLED="false" GENERATION_DIR="build/RelWithDebInfoSystem" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="System" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+      <configuration PROFILE_NAME="MinSizeRel-System" ENABLED="false" GENERATION_DIR="build/MinSizeRelSystem" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="System" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=C:\Users\Clean\Documents\Projekte\ERGOS\vcpkg\scripts\buildsystems\vcpkg.cmake" />
+    </configurations>
+  </component>
+</project>
