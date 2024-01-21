@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 3.22)
 
-set(PROJECT_NAME Uni-Aufgaben)
+set(PROJECT_NAME Ergos)
 
 project(${PROJECT_NAME} VERSION 0.1.1)
 
