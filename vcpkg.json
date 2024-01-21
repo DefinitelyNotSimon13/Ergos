@@ -1,0 +1,21 @@
+{
+  "name" : "ergos",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "a1a1cbc975abf909a6c8985a6a2b8fe20bbd9bd6",
+  "dependencies" : [ {
+    "name" : "libbson",
+    "version>=" : "1.25.4"
+  }, {
+    "name" : "mongo-c-driver",
+    "version>=" : "1.25.4#1"
+  }, {
+    "name" : "mongo-cxx-driver",
+    "version>=" : "3.9.0"
+  }, {
+    "name" : "vcpkg-cmake-config",
+    "version>=" : "2022-02-06#1"
+  }, {
+    "name" : "vcpkg-cmake",
+    "version>=" : "2023-05-04"
+  } ]
+}
