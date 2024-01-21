@@ -1,21 +1,34 @@
 #include "Logger.hpp"
 #include <chrono>
 #include <iomanip>
+#include <sstream>
+#include <ctime>
 
 namespace myLibs {
 
+    //! TODO - Use getTimestamp() function
     Logger::Logger() {
         auto now = std::chrono::system_clock::now();
         auto time = std::chrono::system_clock::to_time_t(now);
+        std::tm timeInfo{};
+#if defined(_WIN32) || defined(_WIN64)
+        localtime_s(&timeInfo, &time);
+#else
+        localtime_r(&time, &timeInfo);
+#endif
         std::stringstream filename;
-        filename << std::string(SOURCE_DIR) << "/logs/log_"
-                 << std::put_time(std::localtime(&time), "%Y-%m-%d")
+        filename << std::string(SOURCE_DIR) << "/log/log_"
+                 << std::put_time(&timeInfo, "%Y-%m-%d")
                  << ".txt";
         Logger::logFile.open(filename.str(), std::ios::app);
     }
 
     Logger::~Logger() {
+        try{
         Logger::logFile.close();
+        } catch(...) {
+            std::exit(-1);
+        }
     }
 
     Logger &Logger::getInstance() {
@@ -40,9 +53,14 @@ namespace myLibs {
     std::string Logger::getTimestamp() {
         auto now = std::chrono::system_clock::now();
         auto time = std::chrono::system_clock::to_time_t(now);
-
+        std::tm timeInfo{};
+#if defined(_WIN32) || defined(_WIN64)
+        localtime_s(&timeInfo, &time);
+#else
+        localtime_r(&time, &timeInfo);
+#endif
         std::stringstream ss;
-        ss << std::put_time(std::localtime(&time), "%H:%M:%S") << " | ";
+        ss << std::put_time(&timeInfo, "%H:%M:%S") << " | ";
         return ss.str();
     }
 } // myUtils
