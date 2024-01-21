@@ -49,6 +49,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: 'recursive'
+
+    - uses: lukka/run-vcpkg@v11.4
+      with:
+        runVcpkgInstall: true
+        vcpkgJsonGlob: 'vcpkg.json'
 
     - name: Create .env file
       run: |
