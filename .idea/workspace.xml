@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Ergos" targetName="MyLogLib" />
+      <config projectName="Ergos" targetName="Ergos" />
+      <config projectName="Ergos" targetName="MyDateTimeLib" />
+      <config projectName="Ergos" targetName="MyUtilLib" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="428c190b-fbb6-44a9-86d2-37409b6be4d3" name="Changes" comment="Update log file path in Logger.cpp&#10;&#10;The path to the log file has been updated in Logger.cpp, changing from '/logs' directory to '/log'. This change harmonizes naming conventions across the codebase and centralizes all log files in one place for easy access and management.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Logger.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Logger.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Logger.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bGX7D2SIbfKO4oS2voF9FZqTK8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Ergos.executor": "Run",
+    "CMake Debug.Ergos.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.jfrog.conanplugin.addconansupport": "false",
+    "com.jfrog.conanplugin.conanexecutable": "conan",
+    "com.jfrog.conanplugin.hasbeensetup": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Clean/Documents/Projekte/ERGOS/vcpkg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "spentTimePerTaskStorage.store": "{}",
+    "timeTracker.activityTracker": "null",
+    "timeTracker.comment": "Automatic?",
+    "timeTracker.inactivityPeriodInMills": "600000",
+    "timeTracker.isAutoTrackingEnable": "true",
+    "timeTracker.isAutoTrackingTemporaryDisabled": "false",
+    "timeTracker.isManualTrackingEnable": "false",
+    "timeTracker.isPaused": "true",
+    "timeTracker.isPostAfterCommitEnabled": "true",
+    "timeTracker.isPostedScheduled": "true",
+    "timeTracker.isRunning": "false",
+    "timeTracker.isScheduledEnabled": "true",
+    "timeTracker.isWhenProjectClosedEnabled": "true",
+    "timeTracker.issueId": "Default",
+    "timeTracker.issueIdReadable": "Default",
+    "timeTracker.pausedTime": "0",
+    "timeTracker.query": "",
+    "timeTracker.recordedTime": "0",
+    "timeTracker.scheduledPeriod": "19:00:0",
+    "timeTracker.startTime": "0",
+    "timeTracker.timeInMills": "0",
+    "timeTracker.type": "Development",
+    "vue.rearranger.settings.migration": "true",
+    "ytplugin.issueListCompactView": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clean\Documents\Projekte\ERGOS\cmake" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Ergos">
+    <configuration name="Ergos" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="Ergos" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="Ergos" RUN_TARGET_NAME="Ergos">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDateTimeLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyDateTimeLib" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLogLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyLogLib" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyUtilLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyUtilLib" CONFIG_NAME="Debug-Visual Studio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Ergos" />
+      <item itemvalue="CMake Application.MyDateTimeLib" />
+      <item itemvalue="CMake Application.MyLogLib" />
+      <item itemvalue="CMake Application.MyUtilLib" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="428c190b-fbb6-44a9-86d2-37409b6be4d3" name="Changes" comment="" />
+      <created>1705842221316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705842221316</updated>
+      <workItem from="1705842222883" duration="291000" />
+      <workItem from="1705842535053" duration="405000" />
+      <workItem from="1705842951442" duration="196000" />
+      <workItem from="1705843162736" duration="433000" />
+      <workItem from="1705843697259" duration="11007000" />
+      <workItem from="1705861405782" duration="1353000" />
+      <workItem from="1705863038391" duration="883000" />
+      <workItem from="1705863964464" duration="1491000" />
+      <workItem from="1705865484975" duration="4081000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remove Sqlite3 dependencies&#10;&#10;Remove Sqlite3 dependencies to prepare for move to MongoDB.">
+      <option name="closed" value="true" />
+      <created>1705842460350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705842460350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add 'logs/' to .gitignore&#10;&#10;An update has been made on the .gitignore file, adding 'logs/' to it. This change will prevent Git from tracking the logs directory and its files, useful for maintaining a cleaner repository.">
+      <option name="closed" value="true" />
+      <created>1705843047729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843047729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update project name in .idea/.name file&#10;&#10;The name of the project in the .idea/.name file has been changed from 'Uni-Aufgaben' to 'Ergos'. This represents a change in the project's focus or direction.">
+      <option name="closed" value="true" />
+      <created>1705843062723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843062723</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Simplify module type in ERGOS.iml&#10;&#10;The ERGOS.iml file has been simplified to only specify the module classpath and type. This change removes unnecessary definitions such as 'NewModuleRootManager' and 'orderEntry', streamlining the project structure.">
+      <option name="closed" value="true" />
+      <created>1705843071831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843071831</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add misc.xml to .idea directory&#10;&#10;The new misc.xml file has been added to the .idea directory. This file comprises the main &quot;project&quot; component for CMakeWorkspace, streamlining the structure and hierarchy of the project itself.">
+      <option name="closed" value="true" />
+      <created>1705843079395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843079395</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update .gitignore with new files&#10;&#10;New files namely 'tmp' and '.env' have been added to .gitignore. Furthermore, the 'logs' entry has been corrected to 'log'. This ensures appropriate ignoring of temporary, environment and log files by Git.">
+      <option name="closed" value="true" />
+      <created>1705869237041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869237041</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add new submodule 'libs/vcpkg'&#10;&#10;A new submodule 'libs/vcpkg' has been added to the repository. The submodule path is set to 'libs/vcpkg' and the URL points to the 'vcpkg' repository on GitHub.">
+      <option name="closed" value="true" />
+      <created>1705869381082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869381082</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add cmake.xml with multiple build configurations&#10;&#10;The new file '.idea/cmake.xml' has been added, which includes a configuration for various build profiles. This addition will allow a more streamlined and efficient development process, especially when switching between different build configurations such as Debug, Release, and Minimum Size Release for various development platforms (Visual Studio, WSL, MinGW, System).">
+      <option name="closed" value="true" />
+      <created>1705869389556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869389556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Remove 'libraries/CMakeLists.txt' file&#10;&#10;The 'libraries/CMakeLists.txt' file has been deleted. This file removal is part of streamlining the build configuration, where multiple build profiles have been set up in a new '.idea/cmake.xml' file instead. This new setting should make switching between different build configurations more efficient.">
+      <option name="closed" value="true" />
+      <created>1705869398835</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869398835</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add new '.idea/cmake.xml' file and remove 'libraries/CMakeLists.txt' &#10;&#10;The new '.idea/cmake.xml' file has been added to set up multiple build profiles, thereby streamlining the build configuration process. This change not only makes 'libraries/CMakeLists.txt' redundant, but also allows for an efficient switch between different build configurations.">
+      <option name="closed" value="true" />
+      <created>1705869407078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869407078</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update CMakeLists.txt, add env loader, Mongo driver&#10;&#10;CMakeLists.txt has been updated to include a module for environment variable loading and the MongoDB C++ driver. Additionally, required library paths have been adjusted and unnecessary flags have been removed to streamline the build process. This update facilitates easier configuration and smoother transition between different build configurations.">
+      <option name="closed" value="true" />
+      <created>1705869414936</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869414936</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add SonarLintModuleSettings option to ERGOS.iml&#10;&#10;The ERGOS.iml file has been updated to include a SonarLintModuleSettings component with a unique ID. This addition is expected to enhance linting process and improve code quality check.">
+      <option name="closed" value="true" />
+      <created>1705869423494</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869423494</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add load_env function in cmake&#10;&#10;Introduced a new function 'load_env' in freshly created 'loadEnv.cmake' file. This new function reads a file and for each line not starting with a comment, it replaces spaces with nothing, splits the line on '=', and sets an environment variable with the parsed values. This addition will improve environment setup convenience.">
+      <option name="closed" value="true" />
+      <created>1705869431194</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869431194</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Remove old log file&#10;&#10;The log file 'log_2024-01-17.txt' was deleted from the codebase. This old log file isn't needed anymore as it mostly contained debug and routine information trace steps, keeping the repository clean and relevant.">
+      <option name="closed" value="true" />
+      <created>1705869437946</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869437947</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers>
+      <YouTrack url="https://simon13.youtrack.cloud">
+        <option name="defaultSearch" value="" />
+        <username>random</username>
+      </YouTrack>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove Sqlite3 dependencies&#10;&#10;Remove Sqlite3 dependencies to prepare for move to MongoDB." />
+    <MESSAGE value="Add 'logs/' to .gitignore&#10;&#10;An update has been made on the .gitignore file, adding 'logs/' to it. This change will prevent Git from tracking the logs directory and its files, useful for maintaining a cleaner repository." />
+    <MESSAGE value="Update project name in .idea/.name file&#10;&#10;The name of the project in the .idea/.name file has been changed from 'Uni-Aufgaben' to 'Ergos'. This represents a change in the project's focus or direction." />
+    <MESSAGE value="Simplify module type in ERGOS.iml&#10;&#10;The ERGOS.iml file has been simplified to only specify the module classpath and type. This change removes unnecessary definitions such as 'NewModuleRootManager' and 'orderEntry', streamlining the project structure." />
+    <MESSAGE value="Add misc.xml to .idea directory&#10;&#10;The new misc.xml file has been added to the .idea directory. This file comprises the main &quot;project&quot; component for CMakeWorkspace, streamlining the structure and hierarchy of the project itself." />
+    <MESSAGE value="Add .env file with MongoDB connection string&#10;&#10;A new .env file has been created which contains the MongoDB connection string. The credentials and parameters are included in the string. A &quot;test&quot; setting has also been added." />
+    <MESSAGE value="Update .gitignore with new files&#10;&#10;New files namely 'tmp' and '.env' have been added to .gitignore. Furthermore, the 'logs' entry has been corrected to 'log'. This ensures appropriate ignoring of temporary, environment and log files by Git." />
+    <MESSAGE value="Add new submodule 'libs/vcpkg'&#10;&#10;A new submodule 'libs/vcpkg' has been added to the repository. The submodule path is set to 'libs/vcpkg' and the URL points to the 'vcpkg' repository on GitHub." />
+    <MESSAGE value="Add cmake.xml with multiple build configurations&#10;&#10;The new file '.idea/cmake.xml' has been added, which includes a configuration for various build profiles. This addition will allow a more streamlined and efficient development process, especially when switching between different build configurations such as Debug, Release, and Minimum Size Release for various development platforms (Visual Studio, WSL, MinGW, System)." />
+    <MESSAGE value="Remove 'libraries/CMakeLists.txt' file&#10;&#10;The 'libraries/CMakeLists.txt' file has been deleted. This file removal is part of streamlining the build configuration, where multiple build profiles have been set up in a new '.idea/cmake.xml' file instead. This new setting should make switching between different build configurations more efficient." />
+    <MESSAGE value="Add new '.idea/cmake.xml' file and remove 'libraries/CMakeLists.txt' &#10;&#10;The new '.idea/cmake.xml' file has been added to set up multiple build profiles, thereby streamlining the build configuration process. This change not only makes 'libraries/CMakeLists.txt' redundant, but also allows for an efficient switch between different build configurations." />
+    <MESSAGE value="Update CMakeLists.txt, add env loader, Mongo driver&#10;&#10;CMakeLists.txt has been updated to include a module for environment variable loading and the MongoDB C++ driver. Additionally, required library paths have been adjusted and unnecessary flags have been removed to streamline the build process. This update facilitates easier configuration and smoother transition between different build configurations." />
+    <MESSAGE value="Add SonarLintModuleSettings option to ERGOS.iml&#10;&#10;The ERGOS.iml file has been updated to include a SonarLintModuleSettings component with a unique ID. This addition is expected to enhance linting process and improve code quality check." />
+    <MESSAGE value="Add load_env function in cmake&#10;&#10;Introduced a new function 'load_env' in freshly created 'loadEnv.cmake' file. This new function reads a file and for each line not starting with a comment, it replaces spaces with nothing, splits the line on '=', and sets an environment variable with the parsed values. This addition will improve environment setup convenience." />
+    <MESSAGE value="Remove old log file&#10;&#10;The log file 'log_2024-01-17.txt' was deleted from the codebase. This old log file isn't needed anymore as it mostly contained debug and routine information trace steps, keeping the repository clean and relevant." />
+    <MESSAGE value="Update log file path in Logger.cpp&#10;&#10;The path to the log file has been updated in Logger.cpp, changing from '/logs' directory to '/log'. This change harmonizes naming conventions across the codebase and centralizes all log files in one place for easy access and management." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update log file path in Logger.cpp&#10;&#10;The path to the log file has been updated in Logger.cpp, changing from '/logs' directory to '/log'. This change harmonizes naming conventions across the codebase and centralizes all log files in one place for easy access and management." />
+  </component>
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
+  ],
+  "lastFilter": {
+  }
+}]]></component>
+</project>
