@@ -15,7 +15,7 @@ namespace myLibs {
      * only one instance can be created, and it can be accessed through the getInstance() method.
      *
      * The Logger class uses ofstream to write log messages to a log file. The log file is
-     * created using the current date in the format "logs/log_YYYY-MM-DD.txt" and is appended
+     * created using the current date in the format "log/log_YYYY-MM-DD.txt" and is appended
      * with new log entries.
      */
     class Logger {
