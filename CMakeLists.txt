@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.22)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-include(LoadEnv)
+include(cmake/loadEnv.cmake)
 
 load_env("${CMAKE_CURRENT_SOURCE_DIR}/.env")
 
@@ -40,8 +40,8 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
         MyUtilLib
         MyDateTimeLib
         MyLogLib
-        mongo::bsoncxx_shared
-        mongo::mongocxx_shared)
+        mongo::bsoncxx_static
+        mongo::mongocxx_static)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
   "${PROJECT_BINARY_DIR}"
