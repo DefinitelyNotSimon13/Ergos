@@ -21,8 +21,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="428c190b-fbb6-44a9-86d2-37409b6be4d3" name="Changes" comment="Create new .idea/workspace.xml file &#10;&#10;Added a new workspace.xml file that includes several configuration settings, components, and processes. This addition refines the overall system structure by defining specific project workspace settings and CMake build configurations.">
+    <list default="true" id="428c190b-fbb6-44a9-86d2-37409b6be4d3" name="Changes" comment="Update library paths and directives in CMakeLists.txt&#10;&#10;The update modifies the CMakeLists.txt to utilize full path for the loadEnv.cmake file, increasing accuracy and avoiding potential errors. Static MongoDB libraries have been substituted for their shared counterparts to improve stability and prevent dependencies issues.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vcpkg.json" beforeDir="false" afterPath="$PROJECT_DIR$/vcpkg.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +33,20 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,13 +84,13 @@
     &quot;com.jfrog.conanplugin.hasbeensetup&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clean/Documents/Projekte/ERGOS/vcpkg&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/simon/coding/Ergos/vcpkg&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spentTimePerTaskStorage.store&quot;: &quot;{}&quot;,
     &quot;timeTracker.activityTracker&quot;: &quot;null&quot;,
     &quot;timeTracker.comment&quot;: &quot;Automatic?&quot;,
@@ -112,22 +123,22 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Ergos">
-    <configuration name="Ergos" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="Ergos" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="Ergos" RUN_TARGET_NAME="Ergos">
+    <configuration name="Ergos" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="Ergos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ergos" RUN_TARGET_NAME="Ergos">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDateTimeLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyDateTimeLib" CONFIG_NAME="Debug-Visual Studio">
+    <configuration name="MyDateTimeLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyDateTimeLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLogLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyLogLib" CONFIG_NAME="Debug-Visual Studio">
+    <configuration name="MyLogLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyLogLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyUtilLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyUtilLib" CONFIG_NAME="Debug-Visual Studio">
+    <configuration name="MyUtilLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ergos" TARGET_NAME="MyUtilLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -157,6 +168,8 @@
       <workItem from="1705863964464" duration="1491000" />
       <workItem from="1705865484975" duration="4983000" />
       <workItem from="1705871274703" duration="3000" />
+      <workItem from="1706135176997" duration="210000" />
+      <workItem from="1706135393347" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Sqlite3 dependencies&#10;&#10;Remove Sqlite3 dependencies to prepare for move to MongoDB.">
       <option name="closed" value="true" />
@@ -318,13 +331,40 @@
       <option name="project" value="LOCAL" />
       <updated>1705870202834</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
-    <servers>
-      <YouTrack url="https://simon13.youtrack.cloud">
-        <option name="defaultSearch" value="" />
-        <username>random</username>
-      </YouTrack>
-    </servers>
+    <task id="LOCAL-00021" summary="Change submodule path in .gitmodules file &#10;&#10;The path and name for the 'vcpkg' submodule have been updated in the .gitmodules file. Now, the submodule points to the Microsoft/vcpkg repository on GitHub, which is essential for specifying project dependencies.">
+      <option name="closed" value="true" />
+      <created>1706136415048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706136415048</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Disable Visual Studio configurations and modify generation paths&#10;&#10;Visual Studio configurations in cmake.xml file have been disabled. The generation paths have also been adjusted to reflect a different development environment. New configurations for 'Debug', 'Release', 'RelWithDebInfo', and 'MinSizeRel' have been enabled with updated paths.">
+      <option name="closed" value="true" />
+      <created>1706136427018</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706136427018</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update CMakeLists file with new library paths&#10;&#10;The include directive in CMakeLists.txt has been refined to use the full path to the loadEnv.cmake file instead of just LoadEnv. The shared MongoDB libraries have been replaced with their static equivalents.">
+      <option name="closed" value="true" />
+      <created>1706136434187</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706136434187</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update library paths and directives in CMakeLists.txt&#10;&#10;The update modifies the CMakeLists.txt to utilize full path for the loadEnv.cmake file, increasing accuracy and avoiding potential errors. Static MongoDB libraries have been substituted for their shared counterparts to improve stability and prevent dependencies issues.">
+      <option name="closed" value="true" />
+      <created>1706136443707</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706136443707</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -346,8 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Sqlite3 dependencies&#10;&#10;Remove Sqlite3 dependencies to prepare for move to MongoDB." />
-    <MESSAGE value="Add 'logs/' to .gitignore&#10;&#10;An update has been made on the .gitignore file, adding 'logs/' to it. This change will prevent Git from tracking the logs directory and its files, useful for maintaining a cleaner repository." />
     <MESSAGE value="Update project name in .idea/.name file&#10;&#10;The name of the project in the .idea/.name file has been changed from 'Uni-Aufgaben' to 'Ergos'. This represents a change in the project's focus or direction." />
     <MESSAGE value="Simplify module type in ERGOS.iml&#10;&#10;The ERGOS.iml file has been simplified to only specify the module classpath and type. This change removes unnecessary definitions such as 'NewModuleRootManager' and 'orderEntry', streamlining the project structure." />
     <MESSAGE value="Add misc.xml to .idea directory&#10;&#10;The new misc.xml file has been added to the .idea directory. This file comprises the main &quot;project&quot; component for CMakeWorkspace, streamlining the structure and hierarchy of the project itself." />
@@ -368,10 +406,15 @@
     <MESSAGE value="Remove projects.db&#10;&#10;moving to mongoDB" />
     <MESSAGE value="Update vcs.xml to include vcpkg directory&#10;&#10;Added a mapping directory for vcpkg in the VcsDirectoryMappings section of the Vcs.xml file. This change allows Git to recognize and manage the vcpkg directory as well." />
     <MESSAGE value="Create new .idea/workspace.xml file &#10;&#10;Added a new workspace.xml file that includes several configuration settings, components, and processes. This addition refines the overall system structure by defining specific project workspace settings and CMake build configurations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new .idea/workspace.xml file &#10;&#10;Added a new workspace.xml file that includes several configuration settings, components, and processes. This addition refines the overall system structure by defining specific project workspace settings and CMake build configurations." />
+    <MESSAGE value="Add new submodule 'vcpkg' to gitmodules&#10;&#10;Added a new submodule 'vcpkg' into the .gitmodules file. This addition includes the path and url, directing to the Microsoft/vcpkg on GitHub. This is crucial in defining the dependencies that are required for building the project." />
+    <MESSAGE value="Change submodule path in .gitmodules file &#10;&#10;The path and name for the 'vcpkg' submodule have been updated in the .gitmodules file. Now, the submodule points to the Microsoft/vcpkg repository on GitHub, which is essential for specifying project dependencies." />
+    <MESSAGE value="Disable Visual Studio configurations and modify generation paths&#10;&#10;Visual Studio configurations in cmake.xml file have been disabled. The generation paths have also been adjusted to reflect a different development environment. New configurations for 'Debug', 'Release', 'RelWithDebInfo', and 'MinSizeRel' have been enabled with updated paths." />
+    <MESSAGE value="Update CMakeLists file with new library paths&#10;&#10;The include directive in CMakeLists.txt has been refined to use the full path to the loadEnv.cmake file instead of just LoadEnv. The shared MongoDB libraries have been replaced with their static equivalents." />
+    <MESSAGE value="Update library paths and directives in CMakeLists.txt&#10;&#10;The update modifies the CMakeLists.txt to utilize full path for the loadEnv.cmake file, increasing accuracy and avoiding potential errors. Static MongoDB libraries have been substituted for their shared counterparts to improve stability and prevent dependencies issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update library paths and directives in CMakeLists.txt&#10;&#10;The update modifies the CMakeLists.txt to utilize full path for the loadEnv.cmake file, increasing accuracy and avoiding potential errors. Static MongoDB libraries have been substituted for their shared counterparts to improve stability and prevent dependencies issues." />
   </component>
-  <component name="WfRunsListSearchHistory"><![CDATA[{
-  "history": [
+  <component name="WfRunsListSearchHistory">{
+  &quot;history&quot;: [
     {
     },
     {
@@ -415,9 +458,9 @@
     {
     }
   ],
-  "lastFilter": {
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -428,5 +471,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
